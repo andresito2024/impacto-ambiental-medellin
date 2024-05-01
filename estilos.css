@@ -1,0 +1,46 @@
+.banner {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 50%; 
+    object-fit: cover; 
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.card {
+    margin-bottom: 20px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(80% - 10px); 
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-item img {
+      max-height: 500px; 
+      width: auto; 
+    }
+
+    .carousel-item img {
+        filter: brightness(1.1) contrast(1.1); 
+      }
+  }
