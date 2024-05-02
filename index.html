@@ -7,6 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <!-- Links de diseño css Miguel Paz -->
+    <link rel="stylesheet" href="fontello.css">
+    <link rel="stylesheet" href="style-social-media-icons.css">
+    <link rel="stylesheet" href="style-servicios.css">
+    <!-- Links de diseño css Miguel Paz -->
     <link rel="shortcut icon" href="imagenes/logo.jpg" type="image/x-icon">
   </head>
   <body>
@@ -77,12 +82,27 @@
     </section>
 
     <!-- Services Section -->
-    <section class="Servicios">
-        <div class="container">
-            <h2>Servicios</h2>
-            <!-- Sección de Servicios: Contaminación Auditiva en Medellín, Niveles de Ruido, etc. -->
-            <!-- Puedes utilizar imágenes, texto, animaciones, etc. -->
-        </div>
+    <section class="container-servicios">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <!-- Sección de Servicios: Contaminación Auditiva en Medellín, Niveles de Ruido, etc. -->
+        <!-- Puedes utilizar imágenes, texto, animaciones, etc. -->
+        <section id="servicios">
+          <h2></h2>
+          <div class="servicio">
+            <h3>Servicio 1</h3>
+            <p>Descripción del servicio 1.</p>
+          </div>
+          <div class="servicio">
+            <h3>Servicio 2</h3>
+            <p>Descripción del servicio 2.</p>
+          </div>
+          <div class="servicio">
+            <h3>Servicio 3</h3>
+            <p>Descripción del servicio 3.</p>
+          </div>
+        </section>
+    </div>
     </section>
 
     <!-- Testimonials Section -->
@@ -94,23 +114,53 @@
         </div>
     </section>
 
-    <!-- Did You Know Section -->
-    <section class="saber">
-        <div class="container">
-            <h2>¿Sabías que?</h2>
-            <!-- Sección de ¿Sabías que? -->
-            <!-- Aquí puedes hablar sobre los senderos verdes en Medellín, noticias, etc. -->
-        </div>
-    </section>
+     <!-- Did You Know Section -->
+     <section class="saber">
+      <div class="container">
+          <h2>¿Sabías qué?</h2>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Importancia de los bosques</h5>
+                  <p class="card-text">Los bosques desempeñan un papel crucial en la captura de carbono y la conservación de la biodiversidad.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Impacto del plástico en los océanos</h5>
+                  <p class="card-text">El plástico en los océanos afecta a la vida marina y contribuye a la contaminación del agua.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Beneficios de la energía solar</h5>
+                  <p class="card-text">La energía solar es una fuente renovable y limpia que reduce las emisiones de gases de efecto invernadero.</p>
+              </div>
+          </div>
+          <!-- Repite este bloque para cada elemento informativo -->
+      </div>
+  </section>
 
-    <!-- FAQ Section -->
-    <section class="faq">
-        <div class="container">
-            <h2>Preguntas Frecuentes</h2>
-            <!-- Sección de Preguntas Frecuentes -->
-            <!-- Aquí puedes incluir preguntas frecuentes sobre el tema con sus respuestas -->
-        </div>
-    </section>
+<!-- FAQ Section -->
+<section class="faq">
+  <div class="container">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+              <h3 class="accordion-header" id="question1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answer1" aria-expanded="true" aria-controls="answer1">
+                      ¿Cómo puedo reducir mi huella de carbono en casa?
+                  </button>
+              </h3>
+              <div id="answer1" class="accordion-collapse collapse show" aria-labelledby="question1" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Puedes reducir tu huella de carbono en casa usando energías renovables, reciclando, reduciendo el consumo de plásticos y optando por medios de transporte sostenibles.
+                  </div>
+              </div>
+          </div>
+          <!-- Repite este bloque para cada pregunta y respuesta -->
+      </div>
+  </div>
+</section>
 
     <!-- Origin of Data Section -->
     <section class="origendatos">
@@ -120,6 +170,22 @@
             <!-- Puedes explicar por qué es importante hacer este tipo de análisis -->
         </div>
     </section>
+
+    <!-- Botones de redes - Miguel Paz -->
+    <div class="container-icons">
+      <input type="checkbox" id="btn-mas">
+      <div class="redes">
+        <a href="#" class="icon-facebook"></a>
+        <a href="#" class="icon-youtube-play"></a>
+        <a href="#" class="icon-twitter"></a>
+        <a href="#" class="icon-instagram"></a>
+        <a href="#" class="icon-whatsapp"></a>
+      </div>
+      <div class="btn-mas">
+        <label for="btn-mas" class="icon-plus"></label>
+      </div>
+    </div>
+    <!-- Aqui terminan los botones de redes - Miguel Paz -->
 
     <!-- Footer -->
     <footer>
