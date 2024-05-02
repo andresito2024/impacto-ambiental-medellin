@@ -1,0 +1,27 @@
+#container-servicios {
+    padding: 50px 20px;
+  }
+  
+  #container-servicios h2 {
+    text-align: center;
+  }
+  
+  .servicio {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: calc(33.33% - 20px); /* Ajusta el ancho de cada servicio según el número total */
+    margin-right: 20px; /* Espacio entre las cartas de servicio */
+    vertical-align: top; /* Alinea las cartas de servicio por arriba */
+  }
+  
+  .servicio:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último servicio para evitar espacios innecesarios */
+  }
+  
+  .servicio h3 {
+    margin-top: 0;
+  }
+  
