@@ -57,6 +57,12 @@
     margin-top: 0;
   }
 
+<<<<<<< HEAD
+ 
+  
+  
+    
+=======
   /* Ajuste de las imagenes dentro de los divs */
   #titleService, #titleServices{
     text-shadow: 0px 1px 10px rgb(39, 177, 39);
@@ -73,3 +79,4 @@
     width: 100%; 
     height: 160px; 
   }
+>>>>>>> 2c6bb5c0c4ddb85063f0cffafb8f12138f2dc6d5
