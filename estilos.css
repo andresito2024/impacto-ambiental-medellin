@@ -43,4 +43,55 @@ a{
     .carousel-item img {
         filter: brightness(1.1) contrast(1.1); 
       }
-  }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+   
+    .container { 
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    h2 img {
+        margin-right: 10px; /* Espacio entre el logo y el texto */
+        width: 50px; /* Tamaño del logo */
+    }
+    
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .testimonial {
+        width: calc(50% - 5px); /* La mitad del ancho de la pantalla, menos el espacio entre los testimonios */
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #6eb270; /* Color verde */
+        border-radius: 20px;
+        box-sizing: border-box; /* Asegura que el ancho incluya el padding */
+    }
+    
+    .testimonial img {
+        width: 90px; /* Reducir el tamaño de la imagen del testimonio */
+        height: 90px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .testimonial p {
+        text-align: center;
+        color: white; /* Color del texto blanco para mayor contraste */
+    }
+    
