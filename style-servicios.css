@@ -26,28 +26,33 @@
   #container-servicios h2 {
     text-align: center;
   }
-  img{
+  #imgService, #imgTestimonials{
     box-shadow: 0px 1px 10px rgb(39, 177, 39);
   }
   .servicio {
     box-shadow: 0px 1px 10px rgb(39, 177, 39);
     margin: 20px;
-    border: 1px solid #008f39;
+    border: #0d8402;
     padding: 16px;
     border-radius: 5px;
-    display: inline-block;
-    width: calc(33.33% - 20px); 
+    display: inline-block; 
     margin-right: 20px; 
     vertical-align: top; 
     transition: all 500ms ease;
   }
+  .testimonial{
+    box-shadow: 0px 1px 10px rgb(39, 177, 39);
+    padding: 16px;
+    transition: all 500ms ease;
+  }
     /* Cambio de color en los servicios */
-  .servicio:hover {
+  .servicio:hover, .list-group-item:hover, .card:hover, .testimonial:hover{
     transform: scale(1.05); 
     transition: transform 0.3s ease; 
-    background: #008f39; 
+    background: #0d8402; 
     color: #fff;
 }
+
   
   .servicio:last-child {
     margin-right: 0; 
@@ -57,7 +62,20 @@
     margin-top: 0;
   }
 
- 
+  /* Ajuste de los Titulos dentro de los divs */
+  #titleService, #titleServices{
+    text-shadow: 0px 1px 10px rgb(39, 177, 39);
+    text-align: center;
+    margin-top: 10px;
+  }
+  .servicio {
+    width: 300px; 
+    max-width: 100%; 
+    overflow: hidden; 
+  }
   
-  
-    
+  .servicio img {
+    width: 100%; 
+    height: 160px; 
+  }
+
