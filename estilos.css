@@ -143,6 +143,25 @@ img{
     
 }
 
+.container1 h2{
+    margin-top: 30px;
+    margin-left: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.enlaces img{
+    width: 15%;
+    margin-left: 85px;
+    
+}
+@media (max-width: 768px) {
+    .container1 h2{
+        margin-left: 5px;
+    }
+}
+
 @media (max-width: 768px) {
     .card {
         width: calc(80% - 10px); 
