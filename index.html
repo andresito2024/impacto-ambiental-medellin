@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="style-social-media-icons.css">
     <link rel="stylesheet" href="style-servicios.css">
     <!-- Links de diseño css Miguel Paz -->
+    <link rel="stylesheet" href="style-testimonials.css">
     <link rel="shortcut icon" href="imagenes/logo3.jpg" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<!--bootstrap icon cdn link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-testimonials.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -125,35 +132,30 @@
     <!-- End Services Section - Miguel Paz -->
 <hr>
     <!-- Testimonials Section -->
-    <section id="testimonios">
-      <div class="containerTestimonials">
-        <span>
-          <h2><img src="./imagenes/logo3.jpg" id="imgTestimonials" alt="Logo"> Testimonios</h2>
-        </span>
-          <div class="testimonials">
-              <div class="testimonial">
-                  <img src="./imagenes/opiniones_1.jpg" id="imgTestimonials" alt="Testimonio 1">
-                  <p>María, 32 años, ama de casa:
-                    "Descubrir esta plataforma medioambiental ha cambiado mi perspectiva sobre cómo puedo contribuir al cuidado del planeta. Gracias a sus consejos y recursos, he podido adoptar hábitos más sostenibles en mi hogar, como reducir mi consumo de plástico y reciclar de manera más efectiva. Ahora me siento parte de un movimiento más grande que busca mejorar nuestra calidad de vida y proteger nuestro entorno para las futuras generaciones."</p>
-              </div>
-              <div class="testimonial">
-                  <img src="./imagenes/opiniones_2.jpg" id="imgTestimonials" alt="Testimonio 2">
-                  <p>Luisa, 28 años, estudiante universitaria:
-                    "Como estudiante preocupada por el medio ambiente, siempre he buscado maneras de hacer una diferencia. Esta plataforma medioambiental me ha brindado una comunidad en línea donde puedo conectarme con otros activistas y acceder a información actualizada sobre problemas ambientales y soluciones prácticas. Gracias a esta plataforma, he participado en campañas de limpieza local, aprendido sobre la importancia de la biodiversidad y me he convertido en una voz activa en mi campus universitario para promover prácticas sostenibles."</p>
-              </div>
-              <div class="testimonial">
-                  <img src="./imagenes/opiniones_3.jpg" id="imgTestimonials" alt="Testimonio 3">
-                  <p>Roberto, 50 años, jubilado:
-                    "Como alguien que ha visto los efectos del cambio climático a lo largo de los años, estoy comprometido a tomar medidas para proteger nuestro planeta. Esta plataforma medioambiental me ha ayudado a encontrar maneras concretas de hacer una diferencia, desde plantar árboles en mi comunidad hasta apoyar proyectos de energía renovable. Me siento parte de un movimiento global que está trabajando incansablemente para preservar nuestro entorno natural y mejorar la calidad de vida para todos."</p>
-              </div>
-              <div class="testimonial">
-                  <img src="./imagenes/opiniones_4.jpg" id="imgTestimonials" alt="Testimonio 4">
-                  <p>Carlos, 45 años, empresario:
-                    "Como propietario de un pequeño negocio, siempre he estado interesado en encontrar formas de operar de manera más sostenible. Esta plataforma medioambiental me ha proporcionado herramientas prácticas y asesoramiento experto para implementar prácticas empresariales responsables. Gracias a sus recursos, hemos reducido nuestro consumo de energía, optimizado nuestros procesos de producción y minimizado nuestro impacto ambiental. No solo estamos contribuyendo al cuidado del planeta, sino que también estamos viendo beneficios tangibles en nuestra eficiencia y rentabilidad."</p>
-              </div>
-          </div>
-      </div>
-  </section>
+    <div class="capa-green"></div>
+        <h1 class="h1">Testimonial</h1>
+        <div class="container-testimonials">
+            <div class="testimonial">
+                <div class="photo-perfil1"></div>
+                <h2>Luisa Cedano</h2>
+                <h4>Estudiante, 23 años</h4>
+                <p>"Como estudiante comprometida con el medio ambiente, utilicé una plataforma para conectar con activistas, informarme sobre problemas ambientales y soluciones prácticas, participar en campañas de limpieza local y promover prácticas sostenibles en mi campus."</p>
+            </div>
+            
+            <div class="testimonial">
+                <div class="photo-perfil2"></div>
+                <h2>Diego Giraldo</h2>
+                <h4>Jubilado, 57 años</h4>
+                <p>"Como testigo del cambio climático, estoy comprometido a proteger nuestro planeta. Utilicé una plataforma medioambiental para acciones concretas, como plantar árboles y apoyar proyectos de energía renovable. Me siento parte de un movimiento global para preservar nuestro entorno y mejorar la calidad de vida."</p>
+            </div>
+            
+            <div class="testimonial">
+                <div class="photo-perfil3"></div>
+                <h2>Carlos Zuluaga</h2>
+                <h4>Empresario, 45 años</h4>
+                <p>"Como propietario de un pequeño negocio, busco la sostenibilidad. Utilicé una plataforma medioambiental para implementar prácticas responsables, reduciendo nuestro consumo de energía, optimizando la producción y minimizando nuestro impacto ambiental, lo que aumentó nuestra eficiencia y rentabilidad."</p>
+            </div>
+        </div>
 <hr>
 <!-- Did You Know Section -->
 <section class="saber">
@@ -367,16 +369,83 @@
   </div>
 </section>
 <hr>
-    <!-- Origin of Data Section -->
-    <section class="origendatos">
-        <div class="container">
-          <span>
-            <h2>Origen de los Datos</h2>
-          </span>
-            <!-- Sección de Origen de los Datos -->
-            <!-- Puedes explicar por qué es importante hacer este tipo de análisis -->
+<!-- origne de los datos andrey -->
+<div class="container">
+  <div class="origendatos">
+    <span>
+      <h2 id="titleServices" class="text-center">Origen de los Datos</h2>
+    </span>
+    
+    <!-- Sección de Origen de los Datos -->
+    <!-- Puedes explicar por qué es importante hacer este tipo de análisis -->
+    
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <div class="servicio border rounded p-3 shadow h-100 w-100">
+          <h2>Restauración Ambiental</h2>
+          <p> Medellín es una ciudad cada vez más verde y comprometida con el medio ambiente. Prueba de ello es que durante la actual administración han sido sembrados más de 11.000 árboles en diferentes espacios públicos de la capital antioqueña, como un aporte a la Ecociudad.
+          </p>
         </div>
-    </section>
+      </div>
+      <div class="col-md-6 mb-5">
+        <div class="servicio border rounded p-3 shadow h-100 w-100">
+          <h2>Reciclaje Inteligente</h2>
+          <p>
+            En Medellín hay más de 3.080 recicladores y 23 organizaciones prestadoras del servicio, autorizadas por la Superintendencia de Servicios Públicos Domiciliarios.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <div class="servicio border rounded p-3 shadow h-100 w-100">
+          <h2>Monitoreo de la Calidad del Aire</h2>
+          <p> AQI. La calidad del aire es generalmente aceptable para la mayoría de personas. Sin embargo, los grupos sensibles pueden experimentar síntomas de menores a a moderados por la exposición a largo plazo <br>
+            <h3>Tabla de Contaminantes</h3>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Contaminante</th>
+                  <th>Concentración (µg/m³)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PM2.5</td>
+                  <td>10.9</td>
+                </tr>
+                <tr>
+                  <td>PM10</td>
+                  <td>48</td>
+                </tr>
+                <tr>
+                  <td>NO2</td>
+                  <td>15</td>
+                </tr>
+              </tbody>
+            </table>
+           </p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-5">
+        <div class="servicio border rounded p-3 shadow h-100 w-100">
+          <h2>Educación Ambiental</h2>
+          <p>
+           <h4> <a href="https://www.metropol.gov.co/planeacion/Paginas/educacion-y-cultura/educacion-ambiental.aspx" target="_blank" class="text-dark" style="text-decoration: none;">Gestión de cultura y educación ambiental</a><br> </h4>
+
+            Los datos sobre educación ambiental se obtienen de programas y actividades desarrollados por instituciones educativas, organizaciones ambientales, y entidades gubernamentales. Estos programas incluyen charlas, talleres, eventos comunitarios, y recursos educativos en línea diseñados para aumentar la conciencia ambiental, promover la adopción de prácticas sostenibles, y fomentar la participación ciudadana en la protección del medio ambiente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+    
 
     <!-- Botones de redes - Miguel Paz -->
     <div class="container-icons">
@@ -400,28 +469,28 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="mb-3">Enlaces útiles</h5>
-          <ul class="list-unstyled mb-0">
-            <li><a href="https://www.epm.com.co/corporativo/responsabilidad-social/responsabilidad-ambiental" target="_blank" class="text-white">Consejos para la conservación del agua</a></li>
-            <li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://7e4782e67e0fe7ff7e3e7fe20f51c8a5" target="_blank" class="text-white">Guía de reciclaje en Medellín</a></li>
-            <li><a href="https://www.corantioquia.gov.co/" target="_blank" class="text-white">Corantioquia (Corporación Autónoma Regional de las cuencas de los ríos Negro y Nare)</a></li>
-            <li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://a36d00fb4e50eb90eab2c0209b01c8a5" target="_blank" class="text-white">Eventos ambientales en Medellín</a></li>
-            <li><a href="https://www.unenvironment.org/es" target="_blank" class="text-white">Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)</a></li>
-          </ul>
+          <h5 class="mb-3">Sobre Nosotros</h5>
+          <p class="mb-3">Somos una empresa comprometida con la conservación del medio ambiente y la promoción de prácticas sostenibles en nuestra comunidad. Nuestro objetivo es crear un mundo más verde y saludable, donde cada acción cuenta y cada pequeño cambio contribuye a un futuro sostenible para todos.</p>
+
+
         </div>
+        
         <div class="col-md-4">
-          <h5 class="mb-3">Páginas aliadas</h5>
+          <h5 class="mb-3">Recursos Educativos Ambientales</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="https://www.epm.com.co/corporativo/responsabilidad-social/responsabilidad-ambiental" target="_blank" class="text-white">Consejos para la conservación del agua</a></li>
-            <li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://7e4782e67e0fe7ff7e3e7fe20f51c8a5" target="_blank" class="text-white">Guía de reciclaje en Medellín</a></li>
-            <li><a href="https://www.corantioquia.gov.co/" target="_blank" class="text-white">Corantioquia (Corporación Autónoma Regional de las cuencas de los ríos Negro y Nare)</a></li>
-            <li><a href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://a36d00fb4e50eb90eab2c0209b01c8a5" target="_blank" class="text-white">Eventos ambientales en Medellín</a></li>
-            <li><a href="https://www.unenvironment.org/es" target="_blank" class="text-white">Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)</a></li>
+            <li><a href="https://www.medellin.gov.co/medio-ambiente" target="_blank" class="text-white">Secretaría de Medio Ambiente de Medellín</a></li>
+            <li><a href="https://www.botanicomedellin.org/" target="_blank" class="text-white">Jardín Botánico de Medellín</a></li>
+            <li><a href="https://www.parquearvi.org/" target="_blank" class="text-white">Parque Arví - Comfenalco Antioquia</a></li>
+            <li><a href="https://www.ideam.gov.co/" target="_blank" class="text-white">IDEAM - Instituto de Hidrología, Meteorología y Estudios Ambientales</a></li>
           </ul>
+          
+          
         </div>
+        
+
         <div class="col-md-4">
           <h5 class="mb-3">Contacto</h5>
-          <p class="mb-2">Dirección: 123 Calle Principal, Ciudad, País</p>
+          <p class="mb-2 text-white">Dirección: <a href="https://www.google.com/maps/search/?api=1&query=123+Calle+Principal,Ciudad,País" target="_blank" class="text-white text-decoration-none">123 Calle Principal, Ciudad, País</a></p>
           <p class="mb-2">Teléfono: +123456789</p>
           <p class="mb-2">Email: info@example.com</p>
           <div class="social-icons mt-3">
@@ -430,6 +499,7 @@
             <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
+        
       </div>
       <hr>
       <div class="row justify-content-center">
@@ -445,6 +515,8 @@
 
     </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
