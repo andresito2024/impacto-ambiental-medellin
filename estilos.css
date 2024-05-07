@@ -175,17 +175,17 @@ img{
 }
 
 .container1 img {
-    width: 10%; /* Ancho relativo */
+    width: 10%; 
     margin: 20px;
-    margin-left: 10%; /* Margen izquierdo relativo */
+    margin-left: 10%; 
     text-align: center;
 }
 
 @media screen and (max-width: 768px) {
     .container1 img {
-        width: 50%; /* Ancho del 100% en pantallas pequeñas */
-        margin: 20px auto; /* Margen automático a los lados */
-        margin-left: 100px; /* Eliminar el margen izquierdo */
+        width: 50%; 
+        margin: 20px auto; 
+        margin-left: 100px; 
     }
 
     .container1 h2{
@@ -228,8 +228,8 @@ img{
     }
     
     h2 img {
-        margin-right: 10px; /* Espacio entre el logo y el texto */
-        width: 50px; /* Tamaño del logo */
+        margin-right: 10px; 
+        width: 50px; 
     }
     
     .testimonials {
@@ -262,5 +262,5 @@ img{
     
     .testimonial p {
         text-align: center;
-        color: white; /* Color del texto blanco para mayor contraste */
+        color: white; 
     }
