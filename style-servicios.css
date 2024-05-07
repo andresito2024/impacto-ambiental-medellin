@@ -3,7 +3,7 @@
   }
   
   /* Diseño para el efecto de maquina de escribir */
-  span{
+  #span-titulos{
     display: block;
     font-family: monospace;
     white-space: nowrap;

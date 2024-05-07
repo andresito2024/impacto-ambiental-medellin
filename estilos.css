@@ -157,6 +157,8 @@ img{
     
 }
 @media (max-width: 768px) {
+    
+
     .container1 h2{
         margin-left: 5px;
     }
@@ -181,7 +183,54 @@ img{
     text-align: center;
 }
 
+    /* Diseño de paginas Aliadas */
+    .section-paginas {
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .image-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .image-links a {
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      
+      .image-links img {
+        width: 200px; /* Tamaño de las imágenes, ajusta según necesites */
+        height: auto;
+        border-radius: 10px; /* Bordes redondeados para las imágenes */
+        transition: transform 0.3s ease; /* Efecto de transición al pasar el mouse */
+      }
+      
+      .image-links img:hover {
+        transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+      }
+      /* Diseño de paginas Aliadas - Fin*/
+
 @media screen and (max-width: 768px) {
+    .image-links {
+        flex-direction: column;
+      }
+    
+      .image-links a {
+        margin: 10px 0;
+      }
+    
+      .image-links img {
+        width: 100%; /* Cambiado de 200px a 100% */
+        height: auto;
+      }
+
     .container1 img {
         width: 50%; 
         margin: 20px auto; 
@@ -196,6 +245,8 @@ img{
 }
 
 @media (min-width: 768px) {
+   
+
     .carousel-item img {
       max-height: 500px; 
       width: auto; 
