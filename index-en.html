@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Air quality in Medellin</title>
+    <title>Urban Forest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style-servicios.css">
     <!-- Links de diseño css Miguel Paz -->
     <link rel="stylesheet" href="style-testimonials.css">
-    <link rel="shortcut icon" href="imagenes/logo3.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/Edicion final.png" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -24,13 +24,11 @@
   </head>
   <body>
     <!--Cambiar de Idioma Alexander-->
-    <span class="es">Spanish</span>
-    <input type="checkbox" class="check" checked>
-    <span class="en">English</span>
+    
     <!--Fin Cambiar de Idioma-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <img src="imagenes/logo2.jpg" alt="logo2">
+        <img src="imagenes/Edicion final.png" alt="logo2">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,6 +38,9 @@
             <a class="nav-link" href="presentacion-en.html">About</a>
           </div>
         </div>
+        <span class="es">Spanish</span>
+        <input type="checkbox" class="check" checked>
+        <span class="en">English</span>
       </div>
     </nav>
     
@@ -99,7 +100,7 @@
     <section class="container-servicios">
       <div class="container">
         <span>
-          <h2 id="titleService">Our services</h2>
+          <h2 id="titleService" class="span-titulos">Our services</h2>
         </span>
         <section id="servicios">
           <div class="servicio">
@@ -139,7 +140,7 @@
 <hr>
     <!-- Testimonials Section -->
     <div class="capa-green"></div>
-        <h1 class="h1">Testimonials</h1>
+        <h1 class="span-titulos" id="titleServices">Testimonials</h1>
         <div class="container-testimonials">
             <div class="testimonial">
                 <div class="photo-perfil1"></div>
@@ -166,8 +167,8 @@
 <!-- Did You Know Section -->
 <section class="saber">
   <div class="container">
-    <span>
-      <h2>Did you know?</h2>
+    <span class="span-titulos">
+      <h2 id="titleServices">Did you know?</h2>
     </span>
     <div class="card">
       <div class="card-body">
@@ -200,24 +201,25 @@
       </div>
     </div>
   </div>
-  <div class="container1">
-    <span>
-      <h2 class="preguntas">Allied platforms:</h2>
-    </span>
-    <a href="https://siata.gov.co/siata_nuevo/" target="_blank"><img src="imagenes/siata.jpg" class="card-img-top" alt="siata"></a>
-    <a href="http://www.ideam.gov.co/" target="_blank"><img src="imagenes/ideam.jpg" class="card-img-top" alt="ideam"></a>
-    <a href="https://oab.ambientebogota.gov.co/red-de-monitoreo-de-calidad-del-aire/" target="_blank"><img src="imagenes/rmcab.jpg" class="card-img-top" alt="rmcab"></a>
-    <div class="card-body">
-    </div>
-  </div>
 </section>
+
+<div class="section-paginas">
+  <span class="span-titulos">
+    <h2 id="titleServices">Allied platforms:</h2>
+  </span>
+  <div class="image-links">
+    <a href="https://siata.gov.co/siata_nuevo/" target="_blank"><img src="imagenes/siata.jpg" alt="Siata"></a>
+    <a href="http://www.ideam.gov.co/" target="_blank"><img src="imagenes/ideam.jpg" alt="Ideam"></a>
+    <a href="https://oab.ambientebogota.gov.co/red-de-monitoreo-de-calidad-del-aire/" target="_blank"><img src="imagenes/rmcab.jpg" alt="Rmcab"></a>
+  </div>
+</div>
 
 <hr>
 <!-- FAQ Section -->
 <section class="faq">
   <div class="container">
-    <span>
-      <h2>Frequent questions</h2>
+    <span class="span-titulos">
+      <h2 id="titleServices">Frequent questions</h2>
     </span>
     <div class="accordion" id="faqAccordion">
       <div class="accordion-item">
@@ -288,8 +290,8 @@
 <!-- origne de los datos andrey -->
 <div class="container">
   <div class="origendatos">
-    <span>
-      <h2 id="titleServices" class="text-center">Data Origin</h2>
+    <span >
+      <h2 id="titleServices" class="text-center" id="titleServices">Data Origin</h2>
     </span>
     
     <!-- Sección de Origen de los Datos -->

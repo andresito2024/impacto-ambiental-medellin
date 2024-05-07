@@ -30,7 +30,7 @@
   #imgService, #imgTestimonials{
     box-shadow: 0px 1px 10px rgb(39, 177, 39);
   }
-  .servicio {
+  .servicio, .testimonial {
     box-shadow: 0px 1px 10px rgb(39, 177, 39);
     margin: 20px;
     border: #0d8402;
